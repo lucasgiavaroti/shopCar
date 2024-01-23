@@ -116,14 +116,14 @@
 
 /* LEFT */
 .left-content{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 3em;
-    width: 60%;
+    width: 50%;
 }
 .sub{
     width: 100%;
@@ -184,16 +184,17 @@
 
 /* RIGHT */
 .right-content{
-  background-color: red;
-    width: 40%;
-    display: flex;
-    align-items: center;
+  /* background-color: red; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container-image{
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
 }
 .container-image img{
-    width: 500px;
+    width: 100%;
 }
 
 
