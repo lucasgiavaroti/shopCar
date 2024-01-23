@@ -49,7 +49,9 @@
     isolation: isolate;
   }
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 
 /* BACKGROUND PRINCIPAL */
@@ -61,7 +63,7 @@
 
 /* ESTILIZANDO A NAVBAR/LOGO E LINKS */
 .menu{
-    background-color: #02005f;
+    background-color: #010041;
     padding: 15px 70px;
     font-family:'League Spartan', sans-serif;
     color: #ffff;
@@ -83,22 +85,30 @@
     font-size: 24px;
     line-height: 0.8;
 }
-.right-items{
-    /* background-color: red; */
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    align-items: center;
-    gap: 32px;
-    justify-content: space-between;
-    font-size: 20px;
+.left-items .logo{
+  text-decoration: none;
+  color: #ffffff;
 }
-
+.right-items{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.right-items a{
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+}
 
 
 /* MAIN */
 .main-content{
-    background-color: #2824e2;
+    background-color: #03017a;
     height: 100vh;
     width: 100%;
     padding: 0px 70px;
@@ -171,13 +181,13 @@
     height: 40px;
     border-radius: 5px;
     border: none;
-    background-color: #02005f;
+    background-color: #ffffff;
 }
 .left-content .button-hyperlink-contact a{
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
-    color: #ffff;
+    color: #02005f;
 }
 
 
@@ -202,6 +212,6 @@
 
 /* ANIMAÇÕES */
 .left-content .main-paragraph span:hover{
-    text-shadow: #ffffff10 0px 0px 5px, #ffffff94 0px 0px 10px, #ffffff41 0px 0px 15px, #02005f 0px 0px 20px, #02005f 0px 0px 30px, #02005f 0px 0px 40px, #02005f 0px 0px 50px, #000003 0px 0px 75px;
+    text-shadow: #ffffff10 0px 0px 5px, #f7f4f494 0px 0px 10px, #86868641 0px 0px 15px, #424242 0px 0px 20px, #04007c 0px 0px 30px, #1e1c6e 0px 0px 40px, #1916ac 0px 0px 50px, #ffffff 0px 0px 75px;
 
 }
