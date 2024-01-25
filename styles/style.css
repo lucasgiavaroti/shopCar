@@ -48,9 +48,12 @@
   #root, #__next {
     isolation: isolate;
   }
+  ul{
+    list-style: none;
+  }
 
 html{
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 
@@ -70,6 +73,7 @@ html{
     font-weight: bold;
     height: 70px;
     width: 100%;
+    position: fixed;
     /* box-sizing: border-box; */
 }
 .main-nav{
