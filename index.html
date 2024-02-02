@@ -20,9 +20,15 @@
             </li>
           </ul>
           <ul class="right-items">
-            <li><a href="#main-content-id">Agendar Horário</a></li>
-            <li><a href="#teste1">Serviços</a></li>
-            <li><a href="#teste2">Quem somos</a></li>
+            <li>
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=%2B5519993842215&data=ARBxJ-UImzDeifTAECSG4cuB8Cj54Gb6ez4oxu_MTvn55YZ7Titgj1MdAaf-43co25EE8ANzRMnGyesLcHx0DBMhgkAuPl-3-uGhslE4xx3bKIpiXHtMdAsjvtoV5_fEFMj59R5nSZgWzukY0pVOb04a2Q&source=FB_Page&app=facebook&entry_point=page_cta"
+                >Agendar Horário</a
+              >
+            </li>
+            <li><a href="#middle-content">Serviços</a></li>
+            <li><a href="#quem-somos">Quem somos</a></li>
           </ul>
         </nav>
       </header>
@@ -45,7 +51,11 @@
             </div>
             <div class="btn">
               <button class="button-hyperlink-contact">
-                <a href="#">Contato</a>
+                <a
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=%2B5519993842215&data=ARBxJ-UImzDeifTAECSG4cuB8Cj54Gb6ez4oxu_MTvn55YZ7Titgj1MdAaf-43co25EE8ANzRMnGyesLcHx0DBMhgkAuPl-3-uGhslE4xx3bKIpiXHtMdAsjvtoV5_fEFMj59R5nSZgWzukY0pVOb04a2Q&source=FB_Page&app=facebook&entry_point=page_cta"
+                  >Contato</a
+                >
               </button>
             </div>
           </section>
@@ -58,7 +68,7 @@
       </main>
     </div>
 
-    <div id="teste1" class="middle-content">
+    <div id="middle-content" class="middle-content">
       <div class="middle-container">
         <div class="titles">
           <h2 class="middle-title">Nossos Serviços</h2>
@@ -118,6 +128,60 @@
         </div>
       </div>
     </div>
+    <div id="quem-somos" class="quem-somos">
+      <div class="quem-somos-title">
+        <h2 class="middle-title">Quem somos</h2>
+        <h3 class="middle-subtitle">Confira nosso endereço e horários</h3>
+      </div>
+      <div class="api-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.8170597117246!2d-46.79557372514925!3d-21.979983205405976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9cb7330914b59%3A0xb55efc0d468ea0ce!2sR.%20Jo%C3%A3o%20Pessoa%2C%20102%20-%20Vila%20Oriental%2C%20S%C3%A3o%20Jo%C3%A3o%20da%20Boa%20Vista%20-%20SP%2C%2013870-676!5e0!3m2!1spt-BR!2sbr!4v1706832807216!5m2!1spt-BR!2sbr"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <section class="infos">
+        <div class="equipe">
+          <h4 class="infos-title">Conheça nossa equipe</h4>
+          <ul class="list">
+            <li class="item">Erivelton</li>
+            <li class="item">Rafa</li>
+            <li class="item">João Paulo</li>
+          </ul>
+        </div>
+        <div class="endereco">
+          <h4 class="infos-title">Onde estamos localizados</h4>
+          <address>
+            Rua João Pessoa, 102 - Vila Oriental <br />
+            São João da Boa Vista - São Paulo <br />
+            13870-676 <br />Brasil
+          </address>
+        </div>
+        <div class="horarios-funcionamento">
+          <h4 class="infos-title">Horário de funcionamento</h4>
+          <p>Segunda à Sexta 08:00-18:00</p>
+        </div>
+      </section>
+    </div>
+    <footer class="rodape">
+      <div class="div-text-footer">
+        <p>
+          Desenvolvido por
+          <a target="_blank" href="https://www.instagram.com/lucas_giavaroti/i">Lucas &copy;</a>
+        </p>
+        <p><span id="ano-atual"></span></p>
+      </div>
+    </footer>
   </body>
 </html>
 <script src="js/script.js"></script>
+<script>
+  // obtem o ano atual
+  var anoAtual = new Date().getFullYear();
+  // passa o valor para o span
+  document.getElementById("ano-atual").innerHTML = anoAtual;
+</script>
